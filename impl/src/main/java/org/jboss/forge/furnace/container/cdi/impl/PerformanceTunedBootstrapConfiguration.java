@@ -43,4 +43,10 @@ public class PerformanceTunedBootstrapConfiguration implements BootstrapConfigur
    public void cleanup()
    {
    }
+
+   @Override
+   public boolean isNonPortableModeEnabled()
+   {
+      return false;
+   }
 }
